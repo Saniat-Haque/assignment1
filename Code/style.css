@@ -318,9 +318,13 @@ body{
   border: 1px solid #0E0E0E;
   background-color:#C6E4D6 ;
   border-radius: 4px;
+  cursor: pointer;
   
   
   
+}
+.table button:hover{
+  border-color: rgb(91, 91, 231);
 }
 .recnews{
   width: 1280px;
@@ -389,11 +393,16 @@ body{
   font-size: 18px;
   font-weight: 600;
   
-  
+  cursor: pointer;
   border: none;
   border-radius: 8px;
   color: #FFFF;
+  transition: background-color 0.3s ease;
 }
+.btn:hover{
+  background-color:#024332 ;
+}
+
 .dodiv{
   width: 1280px;
   height: 120px;
@@ -450,6 +459,8 @@ body{
   align-items: center;
   transition: transform 0.5s ease;
   background-color: #FFFF;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
   
   
 }
@@ -470,7 +481,7 @@ body{
 }
 .inputdiv button{
   height: 56px;
-  
+  cursor: pointer;
   border-radius: 8px;
   background-color: #006A50;
   border: none;
@@ -485,6 +496,10 @@ body{
   padding-right: 34px;
   padding-bottom: 17px;
   padding-top: 17px;
+  transition: background-color 0.3s ease;
+}
+.inputdiv button:hover{
+  background-color: #033c2e;
 }
 .subdiv{
   width: 1280px;
@@ -540,6 +555,11 @@ body{
   border: none;
   border-top-right-radius: 8px;
   border-bottom-right-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.subin button:hover{
+  background-color: #013b2d;
 }
 .subin input{
   width: 600px;
@@ -570,4 +590,5 @@ body{
   margin: auto;
   margin-top: 64px;
   margin-bottom: 50px;
+  cursor: pointer;
 }
